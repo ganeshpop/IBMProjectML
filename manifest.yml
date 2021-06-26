@@ -1,0 +1,10 @@
+---
+applications:
+- path: ./server
+  name: watson-ml-tester
+  command: npm start
+  instances: 1
+  memory: 256M
+  env:
+    API_KEY: gX3nOr9I4xGpqwJ2OQbfFjuzrR4j2OFUJ-LzFbmdSfAJ
+    DEPLOYMENT_URL: https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/f44251d9-cd78-4303-9d36-3260c1acc107/predictions?version=2021-06-26
